@@ -77,8 +77,8 @@ const Dashbord = () => {
                 {state.map((item, index) => (
                   <div className="col-md-3" style={{ marginBottom: "1.5%" }}>
                     <div
-                      className="card"
-                      style={{ width: "16rem", height: "460px" }}
+                      className="card card_mng"
+                      
                     >
                       <img
                         src={item.image}

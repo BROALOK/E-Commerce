@@ -91,7 +91,7 @@
 /* single product page end */
 /* add to cart start*/
 .cartlink{
-  font-size: 24px;
+  font-size: 22px;
   margin-left: 2%;
 }
 .cartlink a{
@@ -101,12 +101,25 @@
 .nav_buttons{
   margin-left: 45%;
 }
+.card_mng{
+  width: 16rem;
+}
 @media only screen and (max-width: 600px){
   .cartlink{
     margin-left: 43%;
   }
   .nav_buttons{
     margin: 0%;
+  }
+  .card_mng{
+    width: 100%;
+    margin: 1%;
+  }
+  .card_mng img {
+    height: 100%;
+  }
+  .view_btn{
+    float: right;
   }
 }
 
