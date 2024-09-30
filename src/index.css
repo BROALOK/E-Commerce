@@ -121,6 +121,10 @@
   .view_btn{
     float: right;
   }
+  .single_producte_mng{
+    width: 90%;
+    margin-left: 5%;
+  }
 }
 
 /* add to cart end */
