@@ -78,14 +78,15 @@ const Dashbord = () => {
                   <div className="col-md-3" style={{ marginBottom: "1.5%" }}>
                     <div
                       className="card card_mng"
-                      onClick={() => {
-                      viewProductData(item.id);
-                        }}
+                  
                     >
                       <img
                         src={item.image}
                         className="card-img-top  product_img_mng"
                         alt="..."
+                            onClick={() => {
+                      viewProductData(item.id);
+                        }}
                       />
                       <div className="card-body">
                         <h5 className="card-title">
