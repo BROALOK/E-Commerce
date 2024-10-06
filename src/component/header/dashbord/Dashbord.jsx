@@ -78,7 +78,9 @@ const Dashbord = () => {
                   <div className="col-md-3" style={{ marginBottom: "1.5%" }}>
                     <div
                       className="card card_mng"
-                      
+                      onClick={() => {
+                      viewProductData(item.id);
+                        }}
                     >
                       <img
                         src={item.image}
@@ -103,17 +105,6 @@ const Dashbord = () => {
                             addtoCartData(item);
                           }}
                         />
-
-                        <span style={{ marginLeft: "20%" }}>
-                          <button
-                            className="btn btn-primary"
-                            onClick={() => {
-                              viewProductData(item.id);
-                            }}
-                          >
-                            View
-                          </button>
-                        </span>
                       </div>
                     </div>
                   </div>
