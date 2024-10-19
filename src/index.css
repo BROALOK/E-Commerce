@@ -93,6 +93,7 @@
 .cartlink{
   font-size: 22px;
   margin-left: 2%;
+  width:20%;
 }
 .cartlink a{
   text-decoration: none;
